@@ -17,7 +17,6 @@ class Php54 < Formula
 
   depends_on 'curl'
   depends_on 'freetds' if ARGV.include? '--with-mssql'
-  depends_on 'freetype'
   depends_on 'gettext'
   depends_on 'gmp' if ARGV.include? '--with-gmp'
   depends_on 'icu4c' if ARGV.include? '--with-intl'
