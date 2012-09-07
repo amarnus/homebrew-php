@@ -23,7 +23,6 @@ class Php54 < Formula
   depends_on 'imap-uw' if ARGV.include? '--with-imap'
   depends_on 'jpeg'
 
-  depends_on 'libpng'
   depends_on 'libxml2'
   depends_on 'mcrypt'
   depends_on 'openssl' if ARGV.include? '--with-homebrew-openssl'
